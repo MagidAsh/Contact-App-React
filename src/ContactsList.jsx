@@ -1,6 +1,7 @@
 import Contact from "./Contact"
 
-function ContactsList() {
+function ContactsList(props) {
+  console.log(props);
   return (
     <div>
         <Contact />
