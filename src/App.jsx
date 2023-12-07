@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import EnterContacts from "./EnterContacts";
+import Contacts from "./components/Contacts";
 import Validation from "./validation";
 import ContactsList from "./ContactsList";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <EnterContacts />
+      <Contacts />
       <Validation />
       <ContactsList /> 
     </>
