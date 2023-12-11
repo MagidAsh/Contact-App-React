@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import Contacts from "./components/Contacts";
-import Validation from "./validation";
 import ContactsList from "./ContactsList";
 
 
@@ -9,7 +8,6 @@ function App() {
     <>
       <Header />
       <Contacts />
-      <Validation />
       <ContactsList /> 
     </>
   )
