@@ -1,7 +1,7 @@
 import {  useState } from 'react'
 
 // Components 
-import ContactsList from '../ContactsList'
+import ContactsList from './ContactsList'
 
 //Constants 
 import inputs from '../constants/inputs'
