@@ -1,10 +1,12 @@
 import {  useState } from 'react'
+import { v4 } from 'uuid'
 
 // Components 
 import ContactsList from './ContactsList'
 
 //Constants 
 import inputs from '../constants/inputs'
+
 
 function Contacts() {
 
@@ -35,7 +37,8 @@ function Contacts() {
         }
 
         setAlert("");
-        setContacts(contacts => ([...contacts , contact]))
+        const newContact = {...contact , id:v4()}
+        setContacts(contacts => ([...contacts , newContact]))
         setContact({
             name : "",
             lastName : "",
